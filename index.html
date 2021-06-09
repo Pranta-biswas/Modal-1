@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal</title>
+    <!-- resources -->
+    <link rel="icon" href="">
+    <link rel="stylesheet" href="resources/css/style.css">
+</head>
+<body>
+
+    <button class="cta" id="trigger">click</button>
+
+    <!-- modal section start -->
+
+    <div class="modal-container" id="modal">
+        <div class="modal">
+            <form action="" method="">
+                <div class="modal-header">
+                    <h3>Hi there</h3>
+                    <button id="close"> &times; </button>
+                </div>
+                <div class="modal-body">
+
+                    <div class="name">
+                        <input type="text" placeholder="Your Name" id="fname">
+                        <small id="fnameErr"></small>
+                    </div>
+
+                    <div class="email">
+                        <input type="email" placeholder="Your Email" id="email">
+                        <small id="emailErr"></small>
+                    </div>
+
+                    <div class="subject">
+                        <input type="text" placeholder="Subject" id="subject">
+                        <small id="subjectErr"></small>
+                    </div>
+
+                    <div class="message">
+                        <textarea name="" id="" cols="" rows="" placeholder="Message" id="message"></textarea>
+                        <small id="messageErr"></small>
+                    </div>
+                 </div>
+
+                <div class="modal-footer">
+                    <button onclick="return subm();">send</button>
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+    <!-- modal section ends -->
+
+    <!-- resources -->
+    <script src="resources/js/customs.js"></script>
+</body>
+</html>
